@@ -1,0 +1,47 @@
+Statistics is an in-depth analysis of both data and machine learning
+1. Statistical Analysis 
+2. Data Analysis
+
+1. Statistical Analysis w.r.t Data 
+
+    1. Data: Improper Information
+    2. Curated, Transformed and well versed Data
+    3. Types of Data:
+        1. Structured Data
+        2. Semi Structured Data
+        3. Image/Video Data
+            1. Signal Processing
+            2. Digital Image Processing
+        4. Text Data/Unstructured Data
+
+Structured Data:
+1. Tabular Data
+2. Rows and Columns
+3. 2D Array/Matrix
+4. Data Frame
+
+Experiment/Observation/Example/Instance/Row/Tuple
+Variable/Attribute/Feature/Field/Column
+
+A Random Experiment/Observation is a function of fields/variables/attributes/
+
+
+Variable/Attribute/Feature/Field/Column:
+    Features are segregated into its primitive data types
+        1. INT features
+        2. FLOAT features
+        3. STRING features
+        4. BOOLEAN features
+
+    Features are segregated into 2 types based on some properties
+        1. Numerical Features
+            1. Interval Scale
+            2. Ratio Scale
+        2. Categorical Features
+
+    ** All discrete features are categorical features.
+    ** All continuous features are need not be numerical features.
+Continuous function:
+f(x)
+
+x is an input --> For every x we have f(x) --> y

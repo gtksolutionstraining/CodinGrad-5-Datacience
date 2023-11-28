@@ -1,0 +1,32 @@
+1. Analytical Section
+    -> Analytical thinking
+    -> Business Usecases
+    -> How to Analyze
+    -> Python, Pandas, Numpy, Advanced Functions
+2. Statistics & Linear Algebra
+    -> Data
+    -> Attributes/Features
+    -> Types of Attributes
+    -> Statistical methods
+        1. Distributions
+        2. Central Tendencies
+    -> Linear Algebra -> Matrices
+    -> Python, Pandas, Numpy, Advanced Functions, ydata profiling
+3. Machine Learning
+    -> Structural Machine Learning
+        -> Linear Regression
+        -> Logistic Regression
+        -> Neural Network
+        -> Deep Neural Network
+    -> ML Strategies
+        -> How to build a model
+    -> Computer Vision
+        -> Convolutions
+        -> Convolutional Neural Network --> CNN
+        -> CNN Architectures Importance
+        -> Image Classification & Object Detection Problems
+        -> YOLO -> You Only Look Once
+        -> Python, Pandas, Numpy, Scikit-Learn, Tensorflow, PyTorch
+    -> Sequence Models
+        -> Recurrent Neural Network
+        -> Tranformers
