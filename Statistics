@@ -39,9 +39,74 @@ Variable/Attribute/Feature/Field/Column:
             2. Ratio Scale
         2. Categorical Features
 
+    ** The outcomes of a feature are bounded then its categorical feature.
     ** All discrete features are categorical features.
     ** All continuous features are need not be numerical features.
+
+1. Account Number:
+    -- Not a Numerical Feature/ Categorical Un Important Nominal feature.
+2. Age:
+    -- Numerical Features.
+
+Statistical Tests:
+    Chi-Square Test
+    Spearsmen Test
+    Pearson Test
+
+All machine learning models need the data in numbers.
+-> All Numerical Features are numbers -> INTS, FLOATS
+-> Categorical Features need not be numbers 
+    --> String --> Numbers
+--> Gender -> Nominal Categorical Features
+    --> MALE - 1
+    --> FEMALE - 2
+    --> NOT TO SPECIFY - 0
+--> Grade -> Ordinal Categorical Features
+    --> S - 0
+    --> A+ - 1
+    --> A
+    --> B+
+    --> B
+    --> F - 1
+--> Rating ->
+    --> **
+--> Marital Status 
+    --> Married
+    --> Unmarried
+    --> Widow
+    --> Divorced
+--> Hair Color
+    --> Brown
+    --> Gray
+    --> Black
+    --> White
+--> Employee ID --> Nominal Categorical Feature.
+    --> 001,11120101
+    --> 565756
+
+--> Age --> Numerical Feature
+    --> 34,68
+--> Salary --> 
+    --> 
+--> IsSmoker -- Binary Categorical Features.
+    --> Yes/No
+
+1. Given a feature and its values. We have to do 2 tests
+    1. Interval Scaled Test --> If the difference between any values in the feature making sense, then such features are interval scaled numerical features.
+    2. Ratio Scaled Test --> If the division between any values in the feature making sence then such features are called ratio scaled numerical features.
+
+
+Domain Expertise
 Continuous function:
 f(x)
 
 x is an input --> For every x we have f(x) --> y
+
+Statistics:
+1. Descriptive Statistics
+    1. Visualization
+    2. Summarization
+    3. Data Distribution
+2. Diagnositic Statistics
+3. Predictive Statistics
+4. Prescriptive Statistics

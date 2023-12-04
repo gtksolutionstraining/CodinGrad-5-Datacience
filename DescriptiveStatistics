@@ -1,0 +1,48 @@
+Summarization ==> Measure of central Tendency
+    1. Numerical Feature
+        MCT -> Mean(Average), Median
+        Age: 0-120, 
+        Salary: 15K, 500K, 30M
+
+      --> 10,09,08,12,17,07,11,06
+      Mean/Average = 10
+      --> 06,07,08,09,10,11,12,17
+        9+10/2 = 9.5
+      Median = 9.5
+      Salary --> 0.001K, 15K,20K,18K,30K,32K,23K,25K,27K,150K
+      Mean/Average = 37K
+      15K,18K,20K,23K,25K,27K,30K,32K,150K
+      Median = 25K
+
+*** MEAN as central tendency is too worst summarization when there are outliers
+*** MEDIAN as central tendency is too good when there are outliers. Median doesn't take outliers at all in the calculation centeral tendency.
+*** GEOMEAN is a good central tendency as it will consider outliers not much as MEAN.
+    --> GMEAN ==> You have to drop NULL values, and Zeros
+** If GMEAN is between MEAN and MEDIAN then the data is -vely skewed
+** If GMEAN is between MEDIAN and MEAN then the data is +vely skewed
+    2. Categorical Feature
+        MCT -> Mode. => The most frequently occured category in categorical feature.
+
+        Class Students:
+            M,F,M,M,M,M,F,F,M,F,F,M,F,F,M
+            M = 8
+            F = 7
+        
+        Rating:
+            *,**,***,***,***,****,*,**,****
+
+Data Distribution/Visualization:
+ 1. Normal/Gaussian Distribution
+ 2. +vely skewed Distribution
+ 3. -vely skewed Distribution
+ 4. -vely Kurtosis Distribution
+ 5. Spiked data/+vely Kurtosis Distribution
+
+
+==> If the data is in Normal Distribution, Then the data is perfect.
+
+
+Dispersion: Is a measure of central tendency that, describes how the data is dispersed, distributed.
+    1. Variance: The measure of how the data is variated from the central tendency.
+    2. Standard Deviation: sqrt variance is Standard deviation
+        The measure of how the data is deviated from central tendency.
