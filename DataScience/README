@@ -1,0 +1,17 @@
+Problem Statement: Manual efforts to understand the data statistically is a repitative and hectic process.
+Data Scientist or Machine Learning Engineer will experience a lot of time in understanding the data statistically.
+
+Solution: Preparing an automated datascience tool. Which will give you a report of most of the statistical info, by taking the data as an input.
+
+Approach/Design: Object Oriented Programming --> Facade/Factory Principle.
+
+Technical Stack:
+    -> Python Programming Language
+    -> Pandas
+    -> Numpy
+    -> Matplotlib
+    -> Ydata Profiling
+    -> Data Prep.EDA
+
+Outcome:
+    -> Designing/Architecting
